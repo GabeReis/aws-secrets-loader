@@ -1,5 +1,5 @@
 {
-  "name": "@gabrielreis/aws-secrets-loader",
+  "name": "aws-secrets-loader",
   "version": "0.1.0",
   "description": "Load aws secrets into environment variables",
   "main": "index.js",
