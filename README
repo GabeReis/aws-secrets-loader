@@ -1,0 +1,16 @@
+## Usage
+
+* Load the credentials to connect to Amazon AWS
+
+  ```const AwsSecretsLoader = require('aws-secrets-loader') ({
+    regions: [
+      AWS_DEFAULT_REGION
+    ],
+    accessKeyId: AWS_CREDENTIAL_ACCESS_KEY,
+    secretKey: AWS_CREDENTIAL_SECRET_KEY,
+    names: [
+      'MY_SECRET_NAME_1',
+      'MY_SECRET_NAME_2'
+      'MY_SECRET_NAME_3'
+    ]
+  });```

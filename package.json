@@ -1,0 +1,34 @@
+{
+  "name": "@gabrielreis/aws-secrets-loader",
+  "version": "0.1.0",
+  "description": "Load aws secrets into environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielreiscom/aws-secrets-loader.git"
+  },
+  "keywords": [
+    "aws",
+    "secrets",
+    "ec2",
+    "parameters",
+    "manager",
+    "passwords"
+  ],
+  "author": "“Gabriel Reis <“jg_reis@hotmail.com”> (https://github.com/gabrielreiscom)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielreiscom/aws-secrets-loader/issues"
+  },
+  "homepage": "https://github.com/gabrielreiscom/aws-secrets-loader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.211.0",
+    "deasync": "^0.1.12"
+  }
+}
