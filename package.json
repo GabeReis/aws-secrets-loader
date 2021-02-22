@@ -29,6 +29,6 @@
   "homepage": "https://github.com/gabrielreiscom/aws-secrets-loader#readme",
   "dependencies": {
     "aws-sdk": "^2.211.0",
-    "deasync": "^0.1.12"
+    "deasync": "^0.1.21"
   }
 }
